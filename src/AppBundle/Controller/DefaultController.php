@@ -38,7 +38,7 @@ class DefaultController extends Controller {
             $getHash = (isset($params->getHash)) ? $params->getHash : null;
 
             $emailConstraint = new Assert\Email();
-            $emailConstraint->message = "This email is not valid!!";
+            $emailConstraint->message = "Este email no es valido!!";
             $validateEmail = $this->get('validator')->validate($email, $emailConstraint);
             
             //Cifrar la contraseña
