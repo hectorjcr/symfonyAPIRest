@@ -26,7 +26,7 @@ class DefaultController extends Controller {
         $json = $request->get('json', null);
 
         //Array a devolver por defecto
-        $data = ['status' => 'Error', 'data' => 'Send json via POST!!'];
+        $data = ['status' => 'Error', 'data' => 'enviar json via POST!!'];
 
         if ($json != null) {
             //me haces login
