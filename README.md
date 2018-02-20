@@ -1,3 +1,4 @@
+Download, composer install, enjoy
 Symfony Standard Edition
 ========================
 
